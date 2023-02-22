@@ -1,4 +1,39 @@
-header{
-    background-color: #3E4B39;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #635D55;
+}
+.cabecalho{
+    
+    background-color: #3E4B39 ;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: -0px 0px;
+}
+
+.cabecalhologo{
+    width: 60px;
+   margin: 0px -200px;
+
+}
+    
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 24px 57px;
+    font-size: 10px;
+
+}
+.frente{
+    width: 1478px;
+    align-items: center;
+
+}
+.titulolooks{
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    margin: 135px;
 }
