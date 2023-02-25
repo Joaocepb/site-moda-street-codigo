@@ -38,7 +38,7 @@ head{
 }
 .titulolooks{
     text-align: center;
-    font-size: 38px;
+    font-size: 42px;
     color: white;
     margin: 135px;
 }
@@ -64,3 +64,41 @@ head{
     border-radius: 3%;
 }
 
+.rodape{
+    text-align: center;
+    background: linear-gradient(#635D55, #E2AD07);
+    margin: 56px, 56px;
+    padding: 23px 4px;
+  
+}
+.logo-rodape{
+    width: 130px;
+    margin: -23px -50px;
+}
+.insta{
+    width: 22px;
+    margin: 0px 46px;
+}
+.shein{
+    width: 29px;
+    margin: 0px 23px;
+}
+.paginas-site{
+    display: flex;
+    justify-content: center;
+    margin: 12px 12%;
+    list-style: none;
+  
+   
+    }
+ .titulo-rodape{
+    font-size: 18px;
+    color: white;
+   margin: 2px 0px;
+
+    }
+.copyright {
+        color: #000000;
+        font-size: 13px;
+        margin: 12px 0 0;
+    }
