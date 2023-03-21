@@ -21,7 +21,7 @@ head{
 }
 
 .cabecalhologo{
-    width: 3%;
+    width: 4%;
    margin: 0px -200px;
 
 }
@@ -29,9 +29,20 @@ head{
 .cabecalho-lista-item{
     display: inline-block;
     margin: 10% 57px;
-    font-size: 13px;
+    font-size: 15px;
+    color: inherit;
   
 
+}
+.cabecalho-lista-item a{
+    color: white;
+    text-decoration: none;
+}
+.cabecalho-lista-item :hover{
+    font-size: 20px;
+    color: #E2AD07;
+    text-decoration: none;
+    
 }
 .frente{
     width: 100%;
@@ -65,6 +76,40 @@ head{
     justify-content: center;
     border-radius: 10%;
 }
+
+            /*site loja*/
+
+
+.div-camisas{
+        justify-content: space-around;
+        align-items: center;
+    }   
+    
+.camisas1{
+    height: 36%;
+    width: 12%; 
+    margin: 85px;
+    justify-content: center;
+    border-radius: 10%;
+    text-align: center;
+
+    }
+    .shein-loja{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 12px 56%;
+        list-style: none;
+
+    }
+    .icon-shein{
+
+        width: 58px;
+        margin: 85px;
+        justify-content: center;
+        text-align: center;*/
+    }
+
 
 .rodape{
     text-align: center;
@@ -105,10 +150,13 @@ head{
         margin: 12px 0 0;
     }
 
+
+            /* parte para celular*/
+
 @media screen and (max-width: 580px) {
 .cabecalhologo{
-    width: 10%;
- margin: 10px;
+    width: 13%;
+ margin: 17px;
 }
 
  .cabecalho-lista-item{
@@ -116,10 +164,17 @@ head{
     margin: 35px;
     font-size: 13px;
  }
+.cabecalho-lista-item :hover{
+    font-size: 15px;
+}
+.frente {
     
-    
-    .look3{
-    height: 35%;
-    width: 26%;
+} 
+ .look3{
+    height: 25%;
+    width: 40%;
+    margin: 4%;
+  
+    text-align: center;
     }
 }
